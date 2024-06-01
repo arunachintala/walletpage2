@@ -136,14 +136,14 @@ function Page2() {
                 <hr style={{ marginTop: '10px', marginBottom: '10px', width: '100%', border: '1p solid #D9D9D9' }}></hr>
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
-                        <p style={{ display: 'flex', justifyContent: 'flex-start', marginBottom: '5px', fontFamily: 'Poppins', gap: '4px', color: '#5F5A6B', fontWeight: '400', fontSize: '12px', lineHeight: '24px' }}>RTO charges
+                        <p style={{ display: 'flex', justifyContent: 'flex-start', marginBottom: '5px', fontFamily: 'Poppins', gap: '4px', color: '#5F5A6B', fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}>RTO charges
                             <Popover content={content1} trigger="click">
                                 <img style={{ marginLeft: '5.6px' }} src={info} alt="info icon" />
                             </Popover>
                         </p>
 
 
-                        <p style={{ display: 'flex', justifyContent: 'flex-start', fontFamily: 'Poppins', fontWeight: '400', fontSize: '12px', lineHeight: '24px', color: '#5F5A6B', gap: '4px', marginTop: '15px' }}>Dimension and weight discrepancy charges
+                        <p style={{ display: 'flex', justifyContent: 'flex-start', fontFamily: 'Poppins', fontWeight: '400', fontSize: '16px', lineHeight: '24px', color: '#5F5A6B', gap: '4px', marginTop: '15px' }}>Dimension and weight discrepancy charges
                             <Popover content={content2} trigger="click">
                                 <img style={{ marginLeft: '5.6px' }} src={info} alt="info icon" />
                             </Popover>
