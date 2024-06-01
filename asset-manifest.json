@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/walletpage2/static/css/main.269ed271.css",
-    "main.js": "/walletpage2/static/js/main.a8a9aced.js",
+    "main.css": "/walletpage2/static/css/main.14ade4c5.css",
+    "main.js": "/walletpage2/static/js/main.30d0e4df.js",
     "static/js/453.6159162a.chunk.js": "/walletpage2/static/js/453.6159162a.chunk.js",
     "static/media/set.svg": "/walletpage2/static/media/set.51b1f305771e9d6fd8edefcf5562aa37.svg",
     "static/media/settings.svg": "/walletpage2/static/media/settings.6e0bb8d90b1581f6665363fdc4c3cfb8.svg",
@@ -19,12 +19,12 @@
     "static/media/game.svg": "/walletpage2/static/media/game.4651ff427d66ca299479cbe2ea72726a.svg",
     "static/media/home.svg": "/walletpage2/static/media/home.456d24210b509ac1663cccf0e5939b6b.svg",
     "static/media/divider.svg": "/walletpage2/static/media/divider.10e62f8f0656511fdb828a3c089f2500.svg",
-    "main.269ed271.css.map": "/walletpage2/static/css/main.269ed271.css.map",
-    "main.a8a9aced.js.map": "/walletpage2/static/js/main.a8a9aced.js.map",
+    "main.14ade4c5.css.map": "/walletpage2/static/css/main.14ade4c5.css.map",
+    "main.30d0e4df.js.map": "/walletpage2/static/js/main.30d0e4df.js.map",
     "453.6159162a.chunk.js.map": "/walletpage2/static/js/453.6159162a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.269ed271.css",
-    "static/js/main.a8a9aced.js"
+    "static/css/main.14ade4c5.css",
+    "static/js/main.30d0e4df.js"
   ]
 }
