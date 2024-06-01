@@ -53,7 +53,7 @@ function Page2() {
                     <option value="option2">Option 2</option>
                     <option value="option3">Option 3</option>
                 </select>
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
                     <div>
                         <p style={{ display: 'flex', justifyContent: 'flex-start', marginBottom: '10px', marginTop: '10px', color: '#5F5A6B', fontFamily: 'Poppins', fontWeight: '400', fontSize: '14px', lineHeight: '21px', gap: '4px' }}>Auto reload by </p>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
@@ -69,7 +69,7 @@ function Page2() {
                                     height: '40px',
                                     borderRadius: '6px',
                                     border: '1px solid #D2D1D6',
-                                    padding: '6px 12px',
+                                    padding: '6px 20px',
 
                                 }}
                                 type="text"
@@ -81,7 +81,7 @@ function Page2() {
                             <p style={{ marginLeft: '5px', color: '#B6B2BD', fontWeight: '500', fontSize: '14px', lineHeight: '21px', marginTop: '10px' }}>$</p>
                         </div>
                     </div>
-                    <div style={{ marginLeft: '5%' }}>
+                    <div style={{ marginLeft: '25%' }}>
                         <p style={{ display: 'flex', justifyContent: 'flex-start', marginBottom: '10px', marginTop: '10px', color: '#5F5A6B', fontFamily: 'Poppins', fontWeight: '400', fontSize: '14px', lineHeight: '21px', gap: '4px' }}>When balance go below</p>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <input
@@ -96,7 +96,7 @@ function Page2() {
                                     height: '40px',
                                     borderRadius: '6px',
                                     border: '1px solid #D2D1D6',
-                                    padding: '6px 12px',
+                                    padding: '6px 20px',
 
                                 }}
                                 type="text"
@@ -150,7 +150,7 @@ function Page2() {
                         </p>
                     </div>
 
-                    <div style={{ marginLeft: '50px', marginTop: '6%' }}><RadioButtonGroup /></div>
+                    <div style={{ marginLeft: '100px', marginTop: '6%' }}><RadioButtonGroup /></div>
                 </div>
             </div >
 

@@ -115,7 +115,7 @@ function Page1() {
                     marginTop: '24px',
                     border: '1px solid #D9D9D9',
                     borderRadius: '6px',
-                    paddingTop: '18%'
+                    paddingTop: '10%'
                 }}>
                     <img src={group} alt='nologo'></img>
                     <p style={{ fontFamily: 'Poppins', fontWeight: '600', fontSize: '18px', lineHeight: '26.64px', color: '#121114' }}>Wallet recharge successfull.</p>
