@@ -49,9 +49,9 @@ function Page2() {
                     style={selectStyle}
                 >
                     <option value="">Bank transfers ( Takes 3-5 days for ACH transfer, Free)</option>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
+                    <option value="option1">Bank transfers ( Takes 3-5 days for ACH transfer, Free)</option>
+                    <option value="option2">Card transfer( Instant, processing fee of 2.9% + 0.3$ applied)</option>
+
                 </select>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
                     <div>
