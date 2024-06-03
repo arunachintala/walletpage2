@@ -134,23 +134,24 @@ function Page2() {
 
                 <p style={{ display: 'flex', justifyContent: 'flex-start', color: '#121114', fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}>Additional charge settings</p>
                 <hr style={{ marginTop: '10px', marginBottom: '10px', width: '100%', border: '1p solid #D9D9D9' }}></hr>
-                <div style={{ display: 'flex', flexDirection: 'row' }}>
-                    <div>
-                        <p style={{ display: 'flex', justifyContent: 'flex-start', marginBottom: '5px', fontFamily: 'Poppins', gap: '4px', color: '#5F5A6B', fontWeight: '400', fontSize: '16px', lineHeight: '24px' }}>RTO charges
+                <div style={{ display: 'flex', flexDirection: 'row', width: '100%' }}>
+                    <div style={{ width: '80%' }}>
+                        <p style={{ display: 'flex', justifyContent: 'flex-start', marginBottom: '10px', fontFamily: 'Poppins', gap: '4px', color: '#5F5A6B', fontWeight: '400', fontSize: '16px', lineHeight: '24px', marginTop: '5px' }}>RTO charges
                             <Popover content={content1} trigger="click">
                                 <img style={{ marginLeft: '5.6px' }} src={info} alt="info icon" />
                             </Popover>
                         </p>
 
 
-                        <p style={{ display: 'flex', justifyContent: 'flex-start', fontFamily: 'Poppins', fontWeight: '400', fontSize: '16px', lineHeight: '24px', color: '#5F5A6B', gap: '4px', marginTop: '15px' }}>Dimension and weight discrepancy charges
+                        <p style={{ display: 'flex', justifyContent: 'flex-start', fontFamily: 'Poppins', fontWeight: '400', fontSize: '16px', lineHeight: '24px', color: '#5F5A6B', gap: '4px', marginTop: '16px' }}>Dimension and weight discrepancy charges
                             <Popover content={content2} trigger="click">
                                 <img style={{ marginLeft: '5.6px' }} src={info} alt="info icon" />
                             </Popover>
                         </p>
-                    </div>
 
-                    <div style={{ marginLeft: '100px', marginTop: '6%' }}><RadioButtonGroup /></div>
+                    </div>
+                    <div style={{ width: '20%', display: 'flex', justifyContent: 'flex-end' }}><RadioButtonGroup /></div>
+
                 </div>
             </div >
 
